@@ -16,7 +16,6 @@ var people = [
 				childGender: "F"
 			}
 		]
-			
 	},
 	{
 		firstName:"Brian",
@@ -77,27 +76,35 @@ var people = [
 			}
 		]
 	}
-	]
+];
 
 
 // Exercise 1:
 
 // people[0].children.push({
-// name: "Joe",
-// childAge: 24
-// })
+// 	name: "Joe",
+// 	childAge: 24
+// });
+
+// people[0].children[people[0].children.length] = {
+
+// };
+
 // people[1].children.push({
-// name: "Alex",
-// childAge: 18
-// })
+// 	name: "Alex",
+// 	childAge: 18
+// });
+
 // people[2].children.push({
-// name: "Dillon",
-// childAge: 22
-// })
+// 	name: "Dillon",
+// 	childAge: 22
+// });
+
 // people[3].children.push({
-// name: "Bobby",
-// childAge: 23
-// })
+// 	name: "Bobby",
+// 	childAge: 23
+// });
+
 
 // console.log(people)
 
